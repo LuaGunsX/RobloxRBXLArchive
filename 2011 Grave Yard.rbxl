@@ -1,0 +1,1378 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<Ref name="CurrentCamera">RBX1</Ref>
+			<double name="DistributedGameTime">142.16667408123612</double>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">null</Ref>
+		</Properties>
+		<Item class="Camera" referent="RBX1">
+			<Properties>
+				<Ref name="CameraSubject">RBX2</Ref>
+				<token name="CameraType">5</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>26.144989</X>
+					<Y>15.0715408</Y>
+					<Z>-1.62417173</Z>
+					<R00>0.210970059</R00>
+					<R01>0.646898031</R01>
+					<R02>-0.732812762</R02>
+					<R10>-0</R10>
+					<R11>0.749686301</R11>
+					<R12>0.661793351</R12>
+					<R20>0.977492511</R20>
+					<R21>-0.139618576</R21>
+					<R22>0.158161357</R22>
+				</CoordinateFrame>
+				<CoordinateFrame name="Focus">
+					<X>35.3051491</X>
+					<Y>6.79912376</Y>
+					<Z>-3.60118866</Z>
+					<R00>0.0958203077</R00>
+					<R01>-5.81734718e-021</R01>
+					<R02>-0.995398641</R02>
+					<R10>-3.53778363e-021</R10>
+					<R11>1</R11>
+					<R12>-6.18479713e-021</R12>
+					<R20>0.995398641</R20>
+					<R21>4.11413383e-021</R21>
+					<R22>0.0958203077</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX3">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>-2</X>
+					<Y>126</Y>
+					<Z>-2</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<string name="ClusterGrid">&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;&#0;&#255;@&#0;</string>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Terrain</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX4">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">37</int>
+				<CoordinateFrame name="CFrame">
+					<X>189.5</X>
+					<Y>0.600000024</Y>
+					<Z>56</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>545</X>
+					<Y>1.20000005</Y>
+					<Z>508</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Model" referent="RBX5">
+			<Properties>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Model</string>
+				<Ref name="PrimaryPart">null</Ref>
+			</Properties>
+			<Item class="Model" referent="RBX6">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Model</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Part" referent="RBX7">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>29.3999996</X>
+							<Y>4.39999723</Y>
+							<Z>1</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX8">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">192</int>
+						<CoordinateFrame name="CFrame">
+							<X>31</X>
+							<Y>3</Y>
+							<Z>1</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Model" referent="RBX9">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Model</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Part" referent="RBX10">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>29.3999996</X>
+							<Y>4.39999199</Y>
+							<Z>-11</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX11">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">192</int>
+						<CoordinateFrame name="CFrame">
+							<X>31</X>
+							<Y>3</Y>
+							<Z>-11</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Model" referent="RBX12">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Model</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Part" referent="RBX13">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>29.3999996</X>
+							<Y>4.39999437</Y>
+							<Z>-8</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX14">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">192</int>
+						<CoordinateFrame name="CFrame">
+							<X>31</X>
+							<Y>3</Y>
+							<Z>-8</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Model" referent="RBX15">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Model</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Part" referent="RBX16">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>29.3999996</X>
+							<Y>4.39999151</Y>
+							<Z>-5</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX17">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">192</int>
+						<CoordinateFrame name="CFrame">
+							<X>31</X>
+							<Y>3</Y>
+							<Z>-5</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Model" referent="RBX18">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Model</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Part" referent="RBX19">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>29.3999996</X>
+							<Y>4.39993525</Y>
+							<Z>4</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX20">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">192</int>
+						<CoordinateFrame name="CFrame">
+							<X>31</X>
+							<Y>3</Y>
+							<Z>4</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Model" referent="RBX21">
+				<Properties>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Model</string>
+					<Ref name="PrimaryPart">null</Ref>
+				</Properties>
+				<Item class="Part" referent="RBX22">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>29.3999996</X>
+							<Y>4.39999437</Y>
+							<Z>-2</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>1</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX23">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">192</int>
+						<CoordinateFrame name="CFrame">
+							<X>31</X>
+							<Y>3</Y>
+							<Z>-2</Z>
+							<R00>0</R00>
+							<R01>0</R01>
+							<R02>-1</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<float name="Elasticity">0.5</float>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<token name="Material">256</token>
+						<string name="Name">Part</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>2</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX24">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">192</int>
+				<CoordinateFrame name="CFrame">
+					<X>31</X>
+					<Y>1.79999995</Y>
+					<Z>-3</Z>
+					<R00>0</R00>
+					<R01>0</R01>
+					<R02>-1</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>1</R20>
+					<R21>0</R21>
+					<R22>0</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<token name="Material">256</token>
+				<string name="Name">Part</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="formFactorRaw">1</token>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>22</X>
+					<Y>1.20000005</Y>
+					<Z>18</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX25">
+		<Properties>
+			<string name="Name">StarterPack</string>
+		</Properties>
+		<Item class="HopperBin" referent="RBX26">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">2</token>
+				<string name="Name">HopperBin</string>
+				<Content name="TextureId"><url>rbxasset://Textures/Grab.png</url></Content>
+			</Properties>
+		</Item>
+		<Item class="HopperBin" referent="RBX27">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">4</token>
+				<string name="Name">HopperBin</string>
+				<Content name="TextureId"><url>rbxasset://Textures/Hammer.png</url></Content>
+			</Properties>
+		</Item>
+		<Item class="HopperBin" referent="RBX28">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">4</token>
+				<string name="Name">HopperBin</string>
+				<Content name="TextureId"><url>rbxasset://Textures/Hammer.png</url></Content>
+			</Properties>
+		</Item>
+		<Item class="HopperBin" referent="RBX29">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">1</token>
+				<string name="Name">HopperBin</string>
+				<Content name="TextureId"><url>rbxasset://Textures/GameTool.png</url></Content>
+			</Properties>
+		</Item>
+		<Item class="HopperBin" referent="RBX30">
+			<Properties>
+				<bool name="Active">false</bool>
+				<token name="BinType">0</token>
+				<string name="Name">HopperBin</string>
+				<Content name="TextureId"><null></null></Content>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterGui" referent="RBX31">
+		<Properties>
+			<string name="Name">StarterGui</string>
+			<bool name="ShowDevelopmentGui">true</bool>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX32">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">10</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">Soundscape</string>
+			<float name="RolloffScale">1</float>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBX33">
+		<Properties>
+			<string name="Name">CollectionService</string>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX34">
+		<Properties>
+			<string name="Name">PhysicsService</string>
+		</Properties>
+	</Item>
+	<Item class="BadgeService" referent="RBX35">
+		<Properties>
+			<string name="Name">BadgeService</string>
+		</Properties>
+	</Item>
+	<Item class="Geometry" referent="RBX36">
+		<Properties>
+			<string name="Name">Geometry</string>
+		</Properties>
+	</Item>
+	<Item class="RenderHooksService" referent="RBX37">
+		<Properties>
+			<string name="Name">RenderHooksService</string>
+		</Properties>
+	</Item>
+	<Item class="SocialService" referent="RBX38">
+		<Properties>
+			<string name="Name">SocialService</string>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX39">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+		</Properties>
+	</Item>
+	<Item class="TimerService" referent="RBX40">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="ScriptInformationProvider" referent="RBX41">
+		<Properties>
+			<string name="Name">Instance</string>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX42">
+		<Properties>
+			<string name="Name">CookiesService</string>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX43">
+		<Properties>
+			<string name="Name">Teleport Service</string>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX44">
+		<Properties>
+			<string name="Name">Players</string>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX45">
+		<Properties>
+			<string name="Name">Selection</string>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX46">
+		<Properties>
+			<Color3 name="Ambient">4286611584</Color3>
+			<float name="Brightness">1</float>
+			<Color3 name="ColorShift_Bottom">4278190080</Color3>
+			<Color3 name="ColorShift_Top">4278190080</Color3>
+			<float name="GeographicLatitude">41.7332993</float>
+			<string name="Name">Lighting</string>
+			<Color3 name="ShadowColor">4289967032</Color3>
+			<string name="TimeOfDay">14:00:00</string>
+		</Properties>
+	</Item>
+	<Item class="ChangeHistoryService" referent="RBX47">
+		<Properties>
+			<string name="Name">ChangeHistoryService</string>
+		</Properties>
+	</Item>
+</roblox>
