@@ -1,0 +1,4378 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBX0">
+		<Properties>
+			<token name="Controller">0</token>
+			<bool name="ControllerFlagShown">true</bool>
+			<Ref name="CurrentCamera">RBX1</Ref>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">RBX2</Ref>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Model" referent="RBX3">
+			<Properties>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Targets</string>
+				<Ref name="PrimaryPart">RBX2</Ref>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Model" referent="RBX4">
+				<Properties>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Target</string>
+					<Ref name="PrimaryPart">RBX5</Ref>
+					<bool name="archivable">true</bool>
+				</Properties>
+				<Item class="Part" referent="RBX6">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.40007555</X>
+							<Y>128.700043</Y>
+							<Z>116.000114</Z>
+							<R00>-5.69420035e-006</R00>
+							<R01>1</R01>
+							<R02>4.83122858e-006</R02>
+							<R10>1.56898196e-007</R10>
+							<R11>4.83122949e-006</R11>
+							<R12>-1</R12>
+							<R20>-1</R20>
+							<R21>-5.69419944e-006</R21>
+							<R22>-1.56925708e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">4</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>38.4000015</Y>
+							<Z>37</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX7">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX8">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.40040624</X>
+							<Y>129.199356</Y>
+							<Z>110.500031</Z>
+							<R00>-1.91134018e-006</R00>
+							<R01>1</R01>
+							<R02>8.04078627e-006</R02>
+							<R10>5.26681774e-008</R10>
+							<R11>1.62167146e-006</R11>
+							<R12>-1</R12>
+							<R20>-1</R20>
+							<R21>-9.47705939e-006</R21>
+							<R22>-2.6119244e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">2</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>7</X>
+							<Y>19.2000008</Y>
+							<Z>18</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX9">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX10">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.79994202</X>
+							<Y>129.199982</Y>
+							<Z>109</Z>
+							<R00>-1.51350734e-013</R00>
+							<R01>1</R01>
+							<R02>-1.60849405e-014</R02>
+							<R10>-2.23045459e-015</R10>
+							<R11>1.60849405e-014</R11>
+							<R12>-1</R12>
+							<R20>-1</R20>
+							<R21>1.51350734e-013</R21>
+							<R22>-2.23045459e-015</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">1</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>7</X>
+							<Y>9.60000038</Y>
+							<Z>10</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX11">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX12">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.39999998</X>
+							<Y>128.199997</Y>
+							<Z>119</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>-1</R12>
+							<R20>-1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">5</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>52.8000031</Y>
+							<Z>50</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX13">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX14">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.20041692</X>
+							<Y>128.199356</Y>
+							<Z>114.000031</Z>
+							<R00>-1.91134018e-006</R00>
+							<R01>1</R01>
+							<R02>8.04078627e-006</R02>
+							<R10>5.26681774e-008</R10>
+							<R11>1.62167146e-006</R11>
+							<R12>-1</R12>
+							<R20>-1</R20>
+							<R21>-9.47705939e-006</R21>
+							<R22>-2.6119244e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">3</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>12</X>
+							<Y>28.8000011</Y>
+							<Z>28</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX15">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX16">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>-94.7198029</X>
+							<Y>123.659637</Y>
+							<Z>68.5890198</Z>
+							<R00>0.0381048173</R00>
+							<R01>0.0380354002</R01>
+							<R02>-0.99854964</R02>
+							<R10>1.86264515e-009</R10>
+							<R11>0.999275327</R11>
+							<R12>0.0380630456</R12>
+							<R20>0.999273717</R20>
+							<R21>-0.0014503859</R21>
+							<R22>0.0380772054</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">CamPart</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">1</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>4</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX17">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.39999998</X>
+							<Y>128.199997</Y>
+							<Z>126</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>-1</R12>
+							<R20>-1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">6</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>105.600006</Y>
+							<Z>100</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX18">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX5">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">45</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.39999998</X>
+							<Y>128.199997</Y>
+							<Z>140</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>-1</R12>
+							<R20>-1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">8</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">1</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>250</Y>
+							<Z>400</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX19">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.39999998</X>
+							<Y>128.199997</Y>
+							<Z>127</Z>
+							<R00>0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>-1</R12>
+							<R20>-1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">7</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>111.600006</Y>
+							<Z>105</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX20">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+			<Item class="Model" referent="RBX21">
+				<Properties>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Target</string>
+					<Ref name="PrimaryPart">RBX2</Ref>
+					<bool name="archivable">true</bool>
+				</Properties>
+				<Item class="Part" referent="RBX22">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.80000007</X>
+							<Y>128.699997</Y>
+							<Z>-116</Z>
+							<R00>0</R00>
+							<R01>-1</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>-1</R12>
+							<R20>1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">4</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>38.4000015</Y>
+							<Z>37</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX23">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX24">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.79963434</X>
+							<Y>129.19931</Y>
+							<Z>-110.499916</Z>
+							<R00>-3.78285972e-006</R00>
+							<R01>-1</R01>
+							<R02>-3.20955837e-006</R02>
+							<R10>-1.04248294e-007</R10>
+							<R11>-3.2095586e-006</R11>
+							<R12>-1</R12>
+							<R20>1</R20>
+							<R21>3.78285972e-006</R21>
+							<R22>1.04248457e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">2</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>7</X>
+							<Y>19.2000008</Y>
+							<Z>18</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX25">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX26">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.40009081</X>
+							<Y>129.199936</Y>
+							<Z>-108.999886</Z>
+							<R00>-5.69419944e-006</R00>
+							<R01>-1</R01>
+							<R02>4.83122949e-006</R02>
+							<R10>-1.56925708e-007</R10>
+							<R11>-4.83122858e-006</R11>
+							<R12>-1</R12>
+							<R20>1</R20>
+							<R21>-5.69420035e-006</R21>
+							<R22>-1.56898196e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">1</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>7</X>
+							<Y>9.60000038</Y>
+							<Z>10</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX27">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX28">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.80009234</X>
+							<Y>128.199905</Y>
+							<Z>-118.999886</Z>
+							<R00>-5.69419944e-006</R00>
+							<R01>-1</R01>
+							<R02>4.83122949e-006</R02>
+							<R10>-1.56925708e-007</R10>
+							<R11>-4.83122858e-006</R11>
+							<R12>-1</R12>
+							<R20>1</R20>
+							<R21>-5.69420035e-006</R21>
+							<R22>-1.56898196e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">5</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>52.8000031</Y>
+							<Z>50</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX29">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX30">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.99964654</X>
+							<Y>128.19931</Y>
+							<Z>-113.999916</Z>
+							<R00>-3.78285972e-006</R00>
+							<R01>-1</R01>
+							<R02>-3.20955837e-006</R02>
+							<R10>-1.04248294e-007</R10>
+							<R11>-3.2095586e-006</R11>
+							<R12>-1</R12>
+							<R20>1</R20>
+							<R21>3.78285972e-006</R21>
+							<R22>1.04248457e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">3</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>12</X>
+							<Y>28.8000011</Y>
+							<Z>28</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX31">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX32">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>83.6665268</X>
+							<Y>129.742355</Y>
+							<Z>-69.7588196</Z>
+							<R00>0.0087821139</R00>
+							<R01>-0.0207511541</R01>
+							<R02>0.999746203</R02>
+							<R10>0</R10>
+							<R11>0.999784648</R11>
+							<R12>0.0207519531</R12>
+							<R20>-0.999961495</R20>
+							<R21>-0.000182247721</R21>
+							<R22>0.00878022239</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">CamPart</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">1</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>4</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX33">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.80013216</X>
+							<Y>128.199905</Y>
+							<Z>-125.999886</Z>
+							<R00>-5.69419944e-006</R00>
+							<R01>-1</R01>
+							<R02>4.83122949e-006</R02>
+							<R10>-1.56925708e-007</R10>
+							<R11>-4.83122858e-006</R11>
+							<R12>-1</R12>
+							<R20>1</R20>
+							<R21>-5.69420035e-006</R21>
+							<R22>-1.56898196e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">6</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>105.600006</Y>
+							<Z>100</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX34">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX2">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">45</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.80021179</X>
+							<Y>128.199905</Y>
+							<Z>-139.999878</Z>
+							<R00>-5.69419944e-006</R00>
+							<R01>-1</R01>
+							<R02>4.83122949e-006</R02>
+							<R10>-1.56925708e-007</R10>
+							<R11>-4.83122858e-006</R11>
+							<R12>-1</R12>
+							<R20>1</R20>
+							<R21>-5.69420035e-006</R21>
+							<R22>-1.56898196e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">8</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">1</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>250</Y>
+							<Z>400</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX35">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>1.80013788</X>
+							<Y>128.199905</Y>
+							<Z>-126.999886</Z>
+							<R00>-5.69419944e-006</R00>
+							<R01>-1</R01>
+							<R02>4.83122949e-006</R02>
+							<R10>-1.56925708e-007</R10>
+							<R11>-4.83122858e-006</R11>
+							<R12>-1</R12>
+							<R20>1</R20>
+							<R21>-5.69420035e-006</R21>
+							<R22>-1.56898196e-007</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">7</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>111.600006</Y>
+							<Z>105</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX36">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+			<Item class="Script" referent="RBX37">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Script</string>
+					<string name="Source">local h = Instance.new(&quot;Hint&quot;, workspace)&#13;&#10;h.Text = &quot;OBJECTIVE: Score your points!&quot;&#13;&#10;local vic = Instance.new(&quot;Sound&quot;)&#13;&#10;vic.SoundId = &quot;rbxasset://sounds/victory.wav&quot;&#13;&#10;vic.Volume = 0.75&#13;&#10;vic.Parent = workspace&#13;&#10;&#13;&#10;local function Show(plr, num)&#13;&#10;&#9;if not plr then return end &#13;&#10;&#9;local msg = Instance.new(plr:FindFirstChild(&quot;PlayerGui&quot;) and &quot;Hint&quot; or &quot;Message&quot;)&#13;&#10;&#9;msg.Parent = plr:FindFirstChild(&quot;PlayerGui&quot;) or plr &#13;&#10;&#9;msg.Text = &quot;RIM HIT: &quot; .. num .. &quot;!&quot;&#13;&#10;&#9;game.Debris:AddItem(msg, 3)&#13;&#10;end &#13;&#10;&#13;&#10;for _,a in pairs(script.Parent:GetChildren()) do &#13;&#10;&#9;for _,v in pairs(a:GetChildren()) do &#13;&#10;&#9;&#9;if v.Name ~= &quot;CamPart&quot; and v.Name ~= &quot;8&quot; then &#13;&#10;&#9;&#9;&#9;v.Touched:connect(function(obj)&#13;&#10;&#9;&#9;&#9;&#9;if obj.Parent:FindFirstChild(&quot;Humanoid&quot;) == nil then return end &#13;&#10;&#9;&#9;&#9;&#9;if obj.Parent:FindFirstChild(&quot;Hit&quot;) then return end &#13;&#10;&#9;&#9;&#9;&#9;local weld = Instance.new(&quot;IntValue&quot;)&#13;&#10;&#9;&#9;&#9;&#9;weld.Name = &quot;Hit&quot;&#13;&#10;&#9;&#9;&#9;&#9;weld.Value = tonumber(v.Name)&#13;&#10;&#9;&#9;&#9;&#9;weld.Parent = obj.Parent&#13;&#10;&#13;&#10;&#9;&#9;&#9;&#9;local plr = game.Players:GetPlayerFromCharacter(obj.Parent)&#13;&#10;&#9;&#9;&#9;&#9;Show(plr, tonumber(v.Name))&#13;&#10;&#9;&#9;&#9;&#9;if _G.Award then _G.Award(plr, tonumber(v.Name)) end &#13;&#10;&#13;&#10;&#9;&#9;&#9;&#9;wait()&#13;&#10;&#9;&#9;&#9;&#9;obj.Parent.Torso.Anchored = true &#13;&#10;&#9;&#9;&#9;&#9;obj.Parent.Torso.Velocity = Vector3.new(0,0,0)&#13;&#10;&#9;&#9;&#9;&#9;wait()&#13;&#10;&#9;&#9;&#9;&#9;obj.Parent.Torso.Anchored = false &#13;&#10;&#9;&#9;&#9;&#9;wait()&#13;&#10;&#9;&#9;&#9;&#9;obj.Parent.Torso.Anchored = true &#13;&#10;&#13;&#10;&#9;&#9;&#9;&#9;if weld.Value == 1 then &#13;&#10;&#9;&#9;&#9;&#9;&#9;local str = string.format(&quot;%s has hit BULLSEYE!&quot;, obj.Parent.Name)&#13;&#10;&#9;&#9;&#9;&#9;&#9;h.Text = str&#13;&#10;&#9;&#9;&#9;&#9;&#9;vic:Play()&#13;&#10;&#9;&#9;&#9;&#9;&#9;wait(4)&#13;&#10;&#9;&#9;&#9;&#9;&#9;if h.Text ~= str then return end &#13;&#10;&#9;&#9;&#9;&#9;&#9;h.Text = &quot;OBJECTIVE: Score your points!&quot;&#13;&#10;&#9;&#9;&#9;&#9;end&#13;&#10;&#9;&#9;&#9;end)&#13;&#10;&#9;&#9;end &#13;&#10;&#9;end &#13;&#10;end </string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Model" referent="RBX38">
+				<Properties>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Target</string>
+					<Ref name="PrimaryPart">RBX39</Ref>
+					<bool name="archivable">true</bool>
+				</Properties>
+				<Item class="Part" referent="RBX40">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>116.000114</X>
+							<Y>128.699814</Y>
+							<Z>-0.400525719</Z>
+							<R00>-1</R00>
+							<R01>-5.69419944e-006</R01>
+							<R02>-1.56925708e-007</R02>
+							<R10>1.56898196e-007</R10>
+							<R11>4.83122949e-006</R11>
+							<R12>-1</R12>
+							<R20>5.69420035e-006</R20>
+							<R21>-1</R21>
+							<R22>-4.83122858e-006</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">4</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>38.4000015</Y>
+							<Z>37</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX41">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX42">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>110.500031</X>
+							<Y>129.199402</Y>
+							<Z>-0.4005588</Z>
+							<R00>-1</R00>
+							<R01>-9.47705939e-006</R01>
+							<R02>-2.6119244e-007</R02>
+							<R10>5.26681774e-008</R10>
+							<R11>1.62167146e-006</R11>
+							<R12>-1</R12>
+							<R20>1.91134018e-006</R20>
+							<R21>-1</R21>
+							<R22>-8.04078627e-006</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">2</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>7</X>
+							<Y>19.2000008</Y>
+							<Z>18</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX43">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX44">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>109</X>
+							<Y>129.200027</Y>
+							<Z>-0.799942017</Z>
+							<R00>-1</R00>
+							<R01>1.51350734e-013</R01>
+							<R02>-2.23045459e-015</R02>
+							<R10>-2.23045459e-015</R10>
+							<R11>1.60849405e-014</R11>
+							<R12>-1</R12>
+							<R20>1.51350734e-013</R20>
+							<R21>-1</R21>
+							<R22>1.60849405e-014</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">1</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>7</X>
+							<Y>9.60000038</Y>
+							<Z>10</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX45">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX46">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>119</X>
+							<Y>128.199997</Y>
+							<Z>-0.400000006</Z>
+							<R00>-1</R00>
+							<R01>-0</R01>
+							<R02>-0</R02>
+							<R10>-0</R10>
+							<R11>-0</R11>
+							<R12>-1</R12>
+							<R20>-0</R20>
+							<R21>-1</R21>
+							<R22>-0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">5</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>52.8000031</Y>
+							<Z>50</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX47">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX48">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>114.000031</X>
+							<Y>128.199402</Y>
+							<Z>-0.200577095</Z>
+							<R00>-1</R00>
+							<R01>-9.47705939e-006</R01>
+							<R02>-2.6119244e-007</R02>
+							<R10>5.26681774e-008</R10>
+							<R11>1.62167146e-006</R11>
+							<R12>-1</R12>
+							<R20>1.91134018e-006</R20>
+							<R21>-1</R21>
+							<R22>-8.04078627e-006</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">3</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>12</X>
+							<Y>28.8000011</Y>
+							<Z>28</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX49">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX50">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>67.015686</X>
+							<Y>129.521729</Y>
+							<Z>87.2317886</Z>
+							<R00>0.999799311</R00>
+							<R01>0.000132981979</R01>
+							<R02>-0.0200341083</R02>
+							<R10>-1.20053301e-009</R10>
+							<R11>0.999977946</R11>
+							<R12>0.00663757371</R12>
+							<R20>0.0200345479</R20>
+							<R21>-0.00663624099</R21>
+							<R22>0.999777257</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">CamPart</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">1</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>4</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX51">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>126</X>
+							<Y>128.199997</Y>
+							<Z>-0.400000006</Z>
+							<R00>-1</R00>
+							<R01>-0</R01>
+							<R02>-0</R02>
+							<R10>-0</R10>
+							<R11>-0</R11>
+							<R12>-1</R12>
+							<R20>-0</R20>
+							<R21>-1</R21>
+							<R22>-0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">6</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>105.600006</Y>
+							<Z>100</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX52">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX39">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">45</int>
+						<CoordinateFrame name="CFrame">
+							<X>140</X>
+							<Y>128.199997</Y>
+							<Z>-0.400000006</Z>
+							<R00>-1</R00>
+							<R01>-0</R01>
+							<R02>-0</R02>
+							<R10>-0</R10>
+							<R11>-0</R11>
+							<R12>-1</R12>
+							<R20>-0</R20>
+							<R21>-1</R21>
+							<R22>-0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">8</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">1</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>250</Y>
+							<Z>400</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX53">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>127</X>
+							<Y>128.199997</Y>
+							<Z>-0.400000006</Z>
+							<R00>-1</R00>
+							<R01>-0</R01>
+							<R02>-0</R02>
+							<R10>-0</R10>
+							<R11>-0</R11>
+							<R12>-1</R12>
+							<R20>-0</R20>
+							<R21>-1</R21>
+							<R22>-0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">Rim</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>111.600006</Y>
+							<Z>105</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX54">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+			<Item class="Model" referent="RBX55">
+				<Properties>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">Target</string>
+					<Ref name="PrimaryPart">RBX56</Ref>
+					<bool name="archivable">true</bool>
+				</Properties>
+				<Item class="Part" referent="RBX57">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>-116.000122</X>
+							<Y>128.699814</Y>
+							<Z>0.400533348</Z>
+							<R00>1</R00>
+							<R01>5.69419944e-006</R01>
+							<R02>1.56925708e-007</R02>
+							<R10>1.56898196e-007</R10>
+							<R11>4.83122949e-006</R11>
+							<R12>-1</R12>
+							<R20>-5.69420035e-006</R20>
+							<R21>1</R21>
+							<R22>4.83122858e-006</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">4</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>38.4000015</Y>
+							<Z>37</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX58">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX59">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>-110.500031</X>
+							<Y>129.199402</Y>
+							<Z>0.400574058</Z>
+							<R00>1</R00>
+							<R01>9.47705939e-006</R01>
+							<R02>2.6119244e-007</R02>
+							<R10>5.26681774e-008</R10>
+							<R11>1.62167146e-006</R11>
+							<R12>-1</R12>
+							<R20>-1.91134041e-006</R20>
+							<R21>1</R21>
+							<R22>8.04078627e-006</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">2</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>7</X>
+							<Y>19.2000008</Y>
+							<Z>18</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX60">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX61">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>-109</X>
+							<Y>129.200012</Y>
+							<Z>0.799957275</Z>
+							<R00>1</R00>
+							<R01>-1.51350734e-013</R01>
+							<R02>2.23045459e-015</R02>
+							<R10>-2.23045459e-015</R10>
+							<R11>1.60849388e-014</R11>
+							<R12>-1</R12>
+							<R20>-1.51350734e-013</R20>
+							<R21>1</R21>
+							<R22>-1.60849388e-014</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">1</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>7</X>
+							<Y>9.60000038</Y>
+							<Z>10</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX62">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX63">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>-119</X>
+							<Y>128.199997</Y>
+							<Z>0.400000006</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>-1</R12>
+							<R20>0</R20>
+							<R21>1</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">5</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>52.8000031</Y>
+							<Z>50</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX64">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX65">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>-114.000038</X>
+							<Y>128.199417</Y>
+							<Z>0.200592354</Z>
+							<R00>1</R00>
+							<R01>9.47705939e-006</R01>
+							<R02>2.6119244e-007</R02>
+							<R10>5.26681774e-008</R10>
+							<R11>1.62167146e-006</R11>
+							<R12>-1</R12>
+							<R20>-1.91134041e-006</R20>
+							<R21>1</R21>
+							<R22>8.04078627e-006</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">3</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>12</X>
+							<Y>28.8000011</Y>
+							<Z>28</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX66">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX67">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">4</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">194</int>
+						<CoordinateFrame name="CFrame">
+							<X>-81.903511</X>
+							<Y>121.38089</Y>
+							<Z>-87.7028427</Z>
+							<R00>-0.999770522</R00>
+							<R01>-0.000642768922</R01>
+							<R02>0.0214111358</R02>
+							<R10>-5.82076609e-011</R10>
+							<R11>0.999549687</R11>
+							<R12>0.0300067905</R12>
+							<R20>-0.0214207806</R20>
+							<R21>0.0299999062</R21>
+							<R22>-0.999320328</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">CamPart</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">1</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>4</X>
+							<Y>1.20000005</Y>
+							<Z>2</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX68">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>-126</X>
+							<Y>128.199997</Y>
+							<Z>0.400000006</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>-1</R12>
+							<R20>0</R20>
+							<R21>1</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">6</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>105.600006</Y>
+							<Z>100</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX69">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBX56">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">45</int>
+						<CoordinateFrame name="CFrame">
+							<X>-140</X>
+							<Y>128.199997</Y>
+							<Z>0.400000006</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>-1</R12>
+							<R20>0</R20>
+							<R21>1</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">8</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">1</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>250</Y>
+							<Z>400</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part" referent="RBX70">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>-127</X>
+							<Y>128.199997</Y>
+							<Z>0.400000006</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>0</R11>
+							<R12>-1</R12>
+							<R20>0</R20>
+							<R21>1</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">1</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">7</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>10</X>
+							<Y>111.600006</Y>
+							<Z>105</Z>
+						</Vector3>
+					</Properties>
+					<Item class="SpecialMesh" referent="RBX71">
+						<Properties>
+							<Content name="MeshId"><null></null></Content>
+							<token name="MeshType">3</token>
+							<string name="Name">Mesh</string>
+							<Vector3 name="Scale">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<Content name="TextureId"><null></null></Content>
+							<Vector3 name="VertexColor">
+								<X>1</X>
+								<Y>1</Y>
+								<Z>1</Z>
+							</Vector3>
+							<bool name="archivable">true</bool>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX72">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">141</int>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>51.6000023</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">1</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<string name="Name">Ground</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>50</X>
+					<Y>100.800003</Y>
+					<Z>50</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="SpawnLocation" referent="RBX73">
+			<Properties>
+				<bool name="AllowTeamChangeOnTouch">false</bool>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">28</int>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>102.599998</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<int name="Duration">0</int>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">1</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<string name="Name">SpawnLocation</string>
+				<bool name="Neutral">true</bool>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<int name="TeamColor">194</int>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>50</X>
+					<Y>1.20000005</Y>
+					<Z>50</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="IntValue" referent="RBX74">
+			<Properties>
+				<string name="Name">Wind</string>
+				<int name="Value">0</int>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Camera" referent="RBX1">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>135.780579</X>
+					<Y>134.912048</Y>
+					<Z>117.429916</Z>
+					<R00>0.670170307</R00>
+					<R01>-0.00208836468</R01>
+					<R02>0.742204428</R02>
+					<R10>-1.16415322e-010</R10>
+					<R11>0.999996066</R11>
+					<R12>0.00281372108</R12>
+					<R20>-0.742207408</R20>
+					<R21>-0.00188567245</R21>
+					<R22>0.670167625</R22>
+				</CoordinateFrame>
+				<CoordinateFrame name="Focus">
+					<X>120.936493</X>
+					<Y>134.855774</Y>
+					<Z>104.026566</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Camera</string>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Model" referent="RBX75">
+			<Properties>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Scripts</string>
+				<Ref name="PrimaryPart">null</Ref>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script" referent="RBX76">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Wind Script</string>
+					<string name="Source">local range = {60*.5,60*1.5}&#13;&#10;&#13;&#10;-- TODO: different X and Y wind variables&#13;&#10;&#13;&#10;local function play(obj)&#13;&#10;&#9;local a = slice:Clone()&#13;&#10;&#9;a.Parent = obj&#13;&#10;&#9;game.Debris:AddItem(a, 1)&#13;&#10;&#9;a:Play()&#13;&#10;&#9;wait(.2)&#13;&#10;&#9;a:Stop()&#13;&#10;end &#13;&#10;&#13;&#10;while true do &#13;&#10;&#9;wait(math.random(range[1], range[2]))&#13;&#10;&#9;if math.random(1,3) == 1 then &#13;&#10;&#9;&#9;local wind = Instance.new(&quot;Sound&quot;)&#13;&#10;&#9;&#9;wind.SoundId = &quot;http://www.roblox.com/asset/?id=687874741&quot;&#13;&#10;&#9;&#9;wind.Name = &quot;Wind&quot;&#13;&#10;&#9;&#9;wind.Looped = true&#13;&#10;&#9;&#9;wind.Volume = .5&#13;&#10;&#9;&#9;wind.Parent = workspace&#13;&#10;&#13;&#10;&#9;&#9;local msg = Instance.new(&quot;Message&quot;)&#13;&#10;&#9;&#9;local chance = math.random(-20, 20)&#13;&#10;&#9;&#9;chance = chance == 0 and 5 or chance&#13;&#10;&#9;&#9;msg.Text = &quot;The wind is changing... MAGNITUDE: &quot; .. chance .. &quot;!&quot;&#13;&#10;&#9;&#9;msg.Parent = workspace &#13;&#10;&#13;&#10;&#9;&#9;wind:Play()&#13;&#10;&#9;&#9;workspace.Wind.Value = chance&#13;&#10;&#9;&#9;wait(3)&#13;&#10;&#9;&#9;msg.Text = &quot;&quot;&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;for i = 1, 20*4 do &#13;&#10;&#9;&#9;&#9;for _, v in pairs(workspace:GetChildren()) do &#13;&#10;&#9;&#9;&#9;&#9;if v.Name == &quot;Teapot&quot; then &#13;&#10;&#9;&#9;&#9;&#9;&#9;v.Velocity = v.Velocity + Vector3.new(chance*2, 0, chance*2)&#13;&#10;&#9;&#9;&#9;&#9;end &#13;&#10;&#9;&#9;&#9;end &#13;&#10;&#9;&#9;&#9;wait(1/4)&#13;&#10;&#9;&#9;end &#13;&#10;&#13;&#10;&#9;&#9;msg.Text = &quot;The wind is reverting back to normal!&quot;&#13;&#10;&#13;&#10;&#9;&#9;workspace.Wind.Value = 0 &#13;&#10;&#9;&#9;for i = 100, 0, -1 do &#13;&#10;&#9;&#9;&#9;wind.Volume = i/100&#13;&#10;&#9;&#9;&#9;wait(.0125)&#13;&#10;&#9;&#9;end &#13;&#10;&#13;&#10;&#9;&#9;wind:Stop()&#13;&#10;&#9;&#9;wind:Remove()&#13;&#10;&#13;&#10;&#9;&#9;wait(3)&#13;&#10;&#9;&#9;msg:Remove()&#13;&#10;&#9;&#9;wait(range[1])&#13;&#10;&#9;end &#13;&#10;end </string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX77">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Teapot Mayhem</string>
+					<string name="Source">local range = {60*1,60*2}&#13;&#10;local slice = Instance.new(&quot;Sound&quot;)&#13;&#10;slice.Volume = 0.4&#13;&#10;slice.SoundId = &quot;http://www.roblox.com/asset/?id=1369159&quot;&#13;&#10;&#13;&#10;local function play(obj)&#13;&#10;&#9;local a = slice:Clone()&#13;&#10;&#9;a.Parent = obj&#13;&#10;&#9;game.Debris:AddItem(a, 1)&#13;&#10;&#9;a:Play()&#13;&#10;&#9;wait(.2)&#13;&#10;&#9;a:Stop()&#13;&#10;end &#13;&#10;&#13;&#10;while true do &#13;&#10;&#9;wait(math.random(range[1], range[2]))&#13;&#10;&#9;if math.random(1,3) == 1 then &#13;&#10;&#9;&#9;local msg = Instance.new(&quot;Message&quot;)&#13;&#10;&#9;&#9;msg.Text = &quot;WARNING! TEAPOTS AHEAD... DOUBLE POINTS!&quot;&#13;&#10;&#9;&#9;msg.Parent = workspace &#13;&#10;&#9;&#9;wait(3)&#13;&#10;&#9;&#9;msg.Text = &quot;&quot;&#13;&#10;&#9;&#9;for i = 1, 20*8 do &#13;&#10;&#9;&#9;&#9;local rand = math.random(1,3)&#13;&#10;&#9;&#9;&#9;for j = 1, rand do &#13;&#10;&#9;&#9;&#9;&#9;local tp = game.Lighting.Teapot:Clone()&#13;&#10;&#9;&#9;&#9;&#9;tp.BrickColor = BrickColor.Random()&#13;&#10;&#9;&#9;&#9;&#9;tp.CFrame = CFrame.new(math.random(-100, 100), 300, math.random(-100, 100))&#13;&#10;&#9;&#9;&#9;&#9;tp.Parent = workspace&#13;&#10;&#9;&#9;&#9;&#9;tp.RotVelocity = Vector3.new(math.random(-100, 100), math.random(-100, 100), math.random(-100, 100))/2&#13;&#10;&#9;&#9;&#9;&#9;delay(0, function() play(tp) end)&#13;&#10;&#9;&#9;&#9;&#9;game.Debris:AddItem(tp, 6)&#13;&#10;&#9;&#9;&#9;&#9;wait()&#13;&#10;&#9;&#9;&#9;end &#13;&#10;&#9;&#9;&#9;&#13;&#10;&#9;&#9;&#9;wait(1/8)&#13;&#10;&#9;&#9;end &#13;&#10;&#9;&#9;msg.Text = &quot;TEAPOTS ARE GONE... FOR NOW...&quot;&#13;&#10;&#9;&#9;wait(3)&#13;&#10;&#9;&#9;msg:Remove()&#13;&#10;&#9;&#9;wait(range[1])&#13;&#10;&#9;end &#13;&#10;end </string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX78">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">RandomSpawn</string>
+					<string name="Source">game:GetService(&quot;Players&quot;).PlayerAdded:connect(function(player) player.Changed:connect(function(prop) &#13;&#10;&#9;if prop ~= &quot;Character&quot; then return end &#13;&#10;&#9;local character = player.Character&#13;&#10;&#9;print(&quot;Teleporting Character&quot;)&#13;&#10;&#9;character:MoveTo(Vector3.new(0,120, 0))&#13;&#10;&#9;wait()&#13;&#10;&#9;character:MoveTo(workspace.SpawnLocation.Position + Vector3.new(&#13;&#10;&#9;&#9;math.random(6+(workspace.SpawnLocation.Size.x/-2), -5+(workspace.SpawnLocation.Size.x/2)),&#13;&#10;&#9;&#9;5,&#13;&#10;&#9;&#9;math.random(6+(workspace.SpawnLocation.Size.z/-2), -5+(workspace.SpawnLocation.Size.z/2))&#13;&#10;&#9;))&#13;&#10;end) end)&#13;&#10;&#13;&#10;-- TODO:&#13;&#10;&#9;-- Make the dive more variable on the mouse position; it&apos;s a pre-determined arc which doesn&apos;t correlate to where the mouse is pointing!(hit and origin is the same thing... rethinking how you do it...)&#13;&#10;&#9;-- If you touch a player, you EXPLODE!!!!&#13;&#10;&#9;-- leaderstats</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX79">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Leaderstats</string>
+					<string name="Source">local function award(plr)&#13;&#10;&#9;if plr:FindFirstChild(&quot;leaderstats&quot;) then return end &#13;&#10;&#9;local ld = Instance.new(&quot;IntValue&quot;)&#13;&#10;&#9;local p = Instance.new(&quot;IntValue&quot;)&#13;&#10;&#9;ld.Name = &quot;leaderstats&quot;&#13;&#10;&#9;p.Name = &quot;Points&quot;&#13;&#10;&#9;p.Parent = ld &#13;&#10;&#9;ld.Parent = plr&#13;&#10;end &#13;&#10;&#13;&#10;--local log = {}&#13;&#10;local tier = {50, 25, 15, 11, 8, 4, 1}&#13;&#10;&#13;&#10;--[[local MP = workspace.MP&#13;&#10;MP.Name = &quot;MOST POINTS: N/A&quot;&#13;&#10;&#13;&#10;local function visual()&#13;&#10;&#9;local winner = nil&#13;&#10;&#9;local current = =1&#13;&#10;&#9;for person, num in pairs(log) do &#13;&#10;&#9;&#9;if num &gt; current then&#13;&#10;&#9;&#9;&#9;current = num&#13;&#10;&#9;&#9;&#9;winner = person&#13;&#10;&#9;&#9;end &#13;&#10;&#9;end &#13;&#10;&#13;&#10;&#9;for _, obj in pairs(MP:GetChildren()) do &#13;&#10;&#9;end&#13;&#10;end ]]&#13;&#10;&#13;&#10;game.Players.PlayerAdded:connect(award)&#13;&#10;&#13;&#10;function _G.Award(plr, num)&#13;&#10;&#9;if not (plr and tonumber(num)) then return end &#13;&#10;&#9;local add = (tier[tonumber(num)] or 0) * (workspace:FindFirstChild(&quot;Teapot&quot;) and 2 or 1)&#13;&#10;&#9;plr.leaderstats.Points.Value = plr.leaderstats.Points.Value + add&#13;&#10;&#9;--log[plr.Name] = log[plr.Name] and (log[plr.Name] + add) or add&#13;&#10;end &#13;&#10;&#13;&#10;wait(1)&#13;&#10;for _,v in pairs(game.Players:GetPlayers()) do award(v) end </string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX80">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Collision</string>
+					<string name="Source">local function Hitbox(chr)&#13;&#10;&#9;local box = Instance.new(&quot;Part&quot;)&#13;&#10;&#9;box.Transparency = 1--0.5&#13;&#10;&#9;box.CanCollide = false &#13;&#10;&#9;box.Size = Vector3.new(4,5,2)&#13;&#10;&#9;local w = Instance.new(&quot;Weld&quot;)&#13;&#10;&#9;w.Part0 = chr.Torso&#13;&#10;&#9;w.Part1 = box &#13;&#10;&#9;box.Parent = chr &#13;&#10;&#9;w.Parent = box&#13;&#10;&#13;&#10;&#9;local trigger = false&#13;&#10;&#9;box.Touched:connect(function(obj)&#13;&#10;&#9;&#9;if obj.Name ~= &quot;Teapot&quot; and obj.Parent:FindFirstChild(&quot;Humanoid&quot;) == nil then return end &#13;&#10;&#9;&#9;if obj.Parent == box.Parent then return end &#13;&#10;&#9;&#9;if trigger then return end &#13;&#10;&#9;&#9;trigger = true &#13;&#10;&#9;&#9;chr.Torso.Anchored = false &#13;&#10;&#9;&#9;chr.Torso.Velocity = chr.Torso.Velocity * -1 &#13;&#10;&#9;&#9;wait(.1337)&#13;&#10;&#9;&#9;trigger = false &#13;&#10;&#9;end)&#13;&#10;end &#13;&#10;&#13;&#10;game.Players.PlayerAdded:connect(function(plr)&#13;&#10;&#9;plr.Changed:connect(function(prop)&#13;&#10;&#9;&#9;if prop ~= &quot;Character&quot; then return end &#13;&#10;&#9;&#9;Hitbox(plr.Character)&#13;&#10;&#9;end)&#13;&#10;end) </string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="RunService" referent="RBX81">
+		<Properties>
+			<string name="Name">Run Service</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<External>RBX82</External>
+	<External>RBX83</External>
+	<Item class="Players" referent="RBX84">
+		<Properties>
+			<int name="MaxPlayers">12</int>
+			<string name="Name">Players</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="StarterPack" referent="RBX85">
+		<Properties>
+			<string name="Name">StarterPack</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="HopperBin" referent="RBX86">
+			<Properties>
+				<token name="BinType">0</token>
+				<string name="Name">Dive</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="LocalScript" referent="RBX87">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">Dive</string>
+					<string name="Source">--if game.Workspace.Player:findFirstChild(&quot;Humanoid&quot;)~=nil then print(&quot;hi&quot;) end&#13;&#10;-- originally a regular script&#13;&#10;bin = script.Parent&#13;&#10;power=125&#13;&#10;VELOCITY = 200&#13;&#10;enabled=true&#13;&#10;&#9;dude=script.Parent.Parent.Parent.Name&#13;&#10;&#9;pl=game.Workspace:findFirstChild(dude)&#13;&#10;&#13;&#10;local function Apply(num)&#13;&#10;&#9;workspace.CurrentCamera.CameraType = num&#13;&#10;&#9;if not tonumber(workspace.CurrentCamera.CameraType) then return end&#13;&#10;&#9;while workspace.CurrentCamera.CameraType ~= num do &#13;&#10;&#9;&#9;wait()&#13;&#10;&#9;&#9;--print(&quot;looping for&quot;, num)&#13;&#10;&#9;&#9;workspace.CurrentCamera.CameraType = num&#13;&#10;&#9;end &#13;&#10;end &#13;&#10;&#13;&#10;local function Wind()&#13;&#10;&#9;if not workspace:FindFirstChild(&quot;Wind&quot;) then return Vector3.new(0,0,0) end &#13;&#10;&#9;return Vector3.new(workspace.Wind.Value, 0, workspace.Wind.Value)&#13;&#10;end &#13;&#10;&#13;&#10;local function CreatePart(h)&#13;&#10;&#9;local x = Instance.new(&quot;Part&quot;)&#13;&#10;&#9;x.Size = Vector3.new(5,5,5)&#13;&#10;&#9;x.CFrame = CFrame.new(h)&#13;&#10;&#9;x.Anchored = true &#13;&#10;&#9;x.CanCollide = false &#13;&#10;&#9;x.Parent = workspace&#13;&#10;end &#13;&#10;&#13;&#10;function onButton1Down(mouse)&#13;&#10;&#9;if (not enabled) or mouse.Target == nil  then&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;enabled = false&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;&#13;&#10;&#13;&#10;&#9;local hit = mouse.Hit&#13;&#10;&#9;local origin = mouse.Origin&#13;&#10;&#9;local part=mouse.Target&#13;&#10;&#9;dude=script.Parent.Parent.Parent.Name&#13;&#10;&#9;pl=game.Workspace:findFirstChild(dude)&#13;&#10;&#9;if hit==nil or part==nil or dude==nil or pl==nil or part.Parent:FindFirstChild(&quot;CamPart&quot;) == nil or pl:FindFirstChild(&quot;Hit&quot;) then &#13;&#10;&#9;--print(part.Parent:FindFirstChild(&quot;CamPart&quot;))&#13;&#10;&#9;wait(0.3)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;&#13;&#10;&#9;enabled = true&#13;&#10;&#9;return &#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;local bass = Instance.new(&quot;Sound&quot;)&#13;&#10;&#9;bass.SoundId = &quot;rbxasset://sounds/Kerplunk.wav&quot;&#13;&#10;&#9;local cp = part.Parent.CamPart:Clone()&#13;&#10;&#9;cp.Parent = workspace.CurrentCamera&#13;&#10;&#9;bass.Parent = cp&#13;&#10;&#9;bass:Play()&#13;&#10;&#9;&#13;&#10;&#9;pl.Torso.Anchored = true &#13;&#10;&#9;workspace.CurrentCamera.CameraSubject = part.Parent.CamPart&#13;&#10;&#9;Apply(1)&#13;&#10;&#9;wait(.05)&#13;&#10;&#13;&#10;&#9;&#9;Apply(2)&#13;&#10;&#9;&#9;workspace.CurrentCamera.CameraSubject = script.Parent.Parent.Parent.Character.Head&#13;&#10;&#9;wait(1-.125)&#13;&#10;&#9;pl.Torso.Anchored = false &#13;&#10;&#13;&#10;&#9;bass.SoundId = &quot;rbxasset://sounds/snap.wav&quot;&#13;&#10;&#9;bass:Play()&#13;&#10;&#9;delay(.3, function() bass:Remove() cp:Remove() end)&#13;&#10;&#13;&#10;&#9;if pl.Torso.Position~=nil then&#13;&#10;&#9;&#9;local hitP = hit.p + Wind()&#13;&#10;&#9;&#9;--CreatePart(hitP)&#13;&#10;&#9;&#9;local vertdist=(hitP.y- pl.Torso.Position.y)&#13;&#10;&#9;&#9;--[[if vertdist&gt;14 or vertdist&lt;-10 then&#13;&#10;&#9;&#9;&#9;wait(0.3)&#13;&#10;&#9;&#9;&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;&#13;&#10;&#9;&#9;&#9;enabled = true&#13;&#10;&#9;&#9;&#9;return&#13;&#10;&#9;&#9;end]]&#13;&#10;&#13;&#10;&#9;&#9;local e=(hitP.x-pl.Torso.Position.x)&#13;&#10;&#9;&#9;local f=(hitP.z- pl.Torso.Position.z)&#13;&#10;&#9;&#9;local mult=1/(math.sqrt((e^2)+(f^2)))&#13;&#10;&#9;&#9;e=e*mult&#13;&#10;&#9;&#9;f=f*mult&#13;&#10;&#9;&#9;yi = vertdist*mult&#13;&#10;&#9;&#9;&#13;&#10;&#9;&#9;local factorx=1&#13;&#10;&#9;&#9;local factory=1&#13;&#10;&#9;&#9;--[[if part.Name==&quot;Ball&quot; then&#13;&#10;&#9;&#9;&#9;local factory=6&#13;&#10;&#9;&#9;end&#13;&#10;&#9;&#9;if part.Parent:findFirstChild(&quot;Humanoid&quot;)~=nil then&#13;&#10;&#9;&#9;&#9;local factorx=2&#13;&#10;&#9;&#9;end]]&#13;&#10;&#13;&#10;&#9;&#9;pl.Torso.Velocity= Vector3.new(e*power*factorx,yi*factory*power,f*power*factorx)&#13;&#10;&#9;&#9;pl.Torso.RotVelocity=Vector3.new(0.5*f*power*factorx,0,-0.5*e*power*factorx) &#13;&#10;&#13;&#10;&#13;&#10;&#9;&#9;-- TODO: have debounce inside player to transcend script debounce&#13;&#10;&#9;&#9;--Apply(2)&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;delay(0, function()&#13;&#10;&#9;&#9;while pl and pl.Parent and (not pl:FindFirstChild(&quot;Hit&quot;)) do wait() end &#13;&#10;&#9;&#9;workspace.CurrentCamera.CameraSubject = script.Parent.Parent.Parent.Character.Humanoid&#13;&#10;&#9;&#9;Apply(0)&#13;&#10;&#9;end)&#13;&#10;&#13;&#10;&#9;--pl.Humanoid.Health=pl.Humanoid.Health-7&#13;&#10;&#9;wait(3)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;&#13;&#10;&#9;enabled = true&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;function onSelected(mouse)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;&#13;&#10;&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)&#13;&#10;end&#13;&#10;&#13;&#10;bin.Selected:connect(onSelected)&#13;&#10;&#13;&#10;bin.Deselected:connect(function()&#13;&#10;&#9;workspace.CurrentCamera.CameraSubject = script.Parent.Parent.Parent.Character.Humanoid&#13;&#10;&#9;Apply(5)&#13;&#10;end )</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="HopperBin" referent="RBX88">
+			<Properties>
+				<token name="BinType">0</token>
+				<string name="Name">Respawn</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="LocalScript" referent="RBX89">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">LocalScript</string>
+					<string name="Source">local function tp(character)&#13;&#10;&#9;character:MoveTo(Vector3.new(0,120, 0))&#13;&#10;&#9;wait()&#13;&#10;&#9;character:MoveTo(workspace.SpawnLocation.Position + Vector3.new(&#13;&#10;&#9;&#9;math.random(6+(workspace.SpawnLocation.Size.x/-2), -5+(workspace.SpawnLocation.Size.x/2)),&#13;&#10;&#9;&#9;5,&#13;&#10;&#9;&#9;math.random(6+(workspace.SpawnLocation.Size.z/-2), -5+(workspace.SpawnLocation.Size.z/2))&#13;&#10;&#9;))&#13;&#10;end &#13;&#10;&#13;&#10;local enabled = true &#13;&#10;function onButton1Down(mouse)&#13;&#10;&#9;while script.Parent.Parent.Parent.Character:FindFirstChild(&quot;Hit&quot;) do script.Parent.Parent.Parent.Character.Hit:Remove() end &#13;&#10;&#9;if (not enabled) or workspace.CurrentCamera.CameraType == 1 or workspace.CurrentCamera.CameraType == 2 then&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;enabled = false&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;&#13;&#10;&#13;&#10;&#9;script.Parent.Parent.Parent.Character.Torso.Velocity = Vector3.new(0,0,0)&#13;&#10;&#9;script.Parent.Parent.Parent.Character.Torso.RotVelocity = Vector3.new(0,0,0)&#13;&#10;&#9;script.Parent.Parent.Parent.Character.Torso.Anchored = false &#13;&#10;&#9;workspace.CurrentCamera.CameraSubject = script.Parent.Parent.Parent.Character.Humanoid&#13;&#10;&#9;workspace.CurrentCamera.CameraType = 5&#13;&#10;&#9;&#13;&#10;&#9;tp(script.Parent.Parent.Parent.Character)&#13;&#10;&#13;&#10;&#9;wait(3)&#13;&#10;&#9;enabled = true &#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;&#13;&#10;end &#13;&#10;&#13;&#10;function onSelected(mouse)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;&#13;&#10;&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)&#13;&#10;end&#13;&#10;&#13;&#10;script.Parent.Selected:connect(onSelected)</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="HopperBin" referent="RBX90">
+			<Properties>
+				<token name="BinType">0</token>
+				<string name="Name">Reset</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="LocalScript" referent="RBX91">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">LocalScript</string>
+					<string name="Source">local enabled = true &#13;&#10;function onButton1Down(mouse)&#13;&#10;&#9;if (not enabled) then&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;enabled = false&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\GunWaitCursor.png&quot;&#13;&#10;&#9;script.Parent.Parent.Parent.Character:BreakJoints()&#13;&#10;end &#13;&#10;&#13;&#10;function onSelected(mouse)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\GunCursor.png&quot;&#13;&#10;&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)&#13;&#10;end&#13;&#10;&#13;&#10;script.Parent.Selected:connect(onSelected)</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="SoundService" referent="RBX92">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<float name="DistanceFactor">10</float>
+			<float name="DopplerScale">1</float>
+			<string name="Name">SoundService</string>
+			<float name="RolloffScale">1</float>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<External>RBX93</External>
+		<External>RBX94</External>
+		<External>RBX95</External>
+		<External>RBX96</External>
+		<External>RBX97</External>
+		<External>RBX98</External>
+		<External>RBX99</External>
+		<External>RBX100</External>
+		<External>RBX101</External>
+		<External>RBX102</External>
+		<External>RBX103</External>
+		<External>RBX104</External>
+		<External>RBX105</External>
+		<External>RBX106</External>
+	</Item>
+	<Item class="Selection" referent="RBX107">
+		<Properties>
+			<string name="Name">Selection</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="ControllerService" referent="RBX108">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<External>RBX109</External>
+	<Item class="Geometry" referent="RBX110">
+		<Properties>
+			<string name="Name">Geometry</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBX111">
+		<Properties>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Timer" referent="RBX112">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX113">
+		<Properties>
+			<Color3 name="BottomAmbientV9">4286220152</Color3>
+			<Color3 name="ClearColor">4294967295</Color3>
+			<float name="GeographicLatitude">41.7332993</float>
+			<string name="Name">Lighting</string>
+			<Color3 name="SpotLightV9">4290822336</Color3>
+			<string name="TimeOfDay">08:00:00</string>
+			<Color3 name="TopAmbientV9">4292006362</Color3>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Sky" referent="RBX114">
+			<Properties>
+				<bool name="CelestialBodiesShown">true</bool>
+				<string name="Name">Skrask&apos;s Skybox</string>
+				<Content name="SkyboxBk"><url>http://www.roblox.com/asset/?id=18702336572</url></Content>
+				<Content name="SkyboxDn"><url>http://www.roblox.com/asset/?id=18702779161</url></Content>
+				<Content name="SkyboxFt"><url>http://www.roblox.com/asset/?id=18702695680</url></Content>
+				<Content name="SkyboxLf"><url>http://www.roblox.com/asset/?id=18702700759</url></Content>
+				<Content name="SkyboxRt"><url>http://www.roblox.com/asset/?id=18702698620</url></Content>
+				<Content name="SkyboxUp"><url>http://www.roblox.com/asset/?id=18702752672</url></Content>
+				<int name="StarCount">1000</int>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Model" referent="RBX115">
+			<Properties>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<CoordinateFrame name="ModelInPrimary">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">MP</string>
+				<Ref name="PrimaryPart">RBX116</Ref>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Part" referent="RBX116">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">4</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">24</int>
+					<CoordinateFrame name="CFrame">
+						<X>-20</X>
+						<Y>112.200005</Y>
+						<Z>24</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">false</bool>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<bool name="DraggingV1">false</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<string name="Name">Fake</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>4</X>
+						<Y>2</Y>
+						<Z>2</Z>
+					</Vector3>
+				</Properties>
+				<Item class="SpecialMesh" referent="RBX117">
+					<Properties>
+						<Content name="MeshId"><null></null></Content>
+						<token name="MeshType">0</token>
+						<string name="Name">Mesh</string>
+						<Vector3 name="Scale">
+							<X>1.25</X>
+							<Y>1.25</Y>
+							<Z>1.25</Z>
+						</Vector3>
+						<Content name="TextureId"><null></null></Content>
+						<Vector3 name="VertexColor">
+							<X>1</X>
+							<Y>1</Y>
+							<Z>1</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Part" referent="RBX118">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">4</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">24</int>
+					<CoordinateFrame name="CFrame">
+						<X>-20</X>
+						<Y>109.200005</Y>
+						<Z>24</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<bool name="DraggingV1">false</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">0</float>
+					<float name="LeftParamB">0</float>
+					<token name="LeftSurface">2</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<string name="Name">Torso</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">0</float>
+					<float name="RightParamB">0</float>
+					<token name="RightSurface">2</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">3</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>4</X>
+						<Y>4</Y>
+						<Z>2</Z>
+					</Vector3>
+				</Properties>
+				<Item class="Decal" referent="RBX119">
+					<Properties>
+						<token name="Face">5</token>
+						<string name="Name">roblox</string>
+						<float name="Shiny">20</float>
+						<float name="Specular">0</float>
+						<Content name="Texture"><binary>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALHRFWHRDcmVhdGlvbiBUaW1l
+AE1vbiAyMSBBcHIgMjAwOCAxNjo0NDo0OCAtMDgwMMFcEAAAAAAHdElNRQfYBBUXLQp5aDOL
+AAAACXBIWXMAAAsSAAALEgHS3X78AAAABGdBTUEAALGPC/xhBQAAABJJREFUeNpjYBgFo2AU
+jAIIAAAEEAABr0WILAAAAABJRU5ErkJggg==</binary></Content>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Part" referent="RBX120">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">4</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">24</int>
+					<CoordinateFrame name="CFrame">
+						<X>-20</X>
+						<Y>112.200218</Y>
+						<Z>23.6999969</Z>
+						<R00>1</R00>
+						<R01>6.80340317e-009</R01>
+						<R02>8.51056257e-008</R02>
+						<R10>6.80340317e-009</R10>
+						<R11>1</R11>
+						<R12>-3.17922244e-010</R12>
+						<R20>8.51056257e-008</R20>
+						<R21>-3.17922244e-010</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<bool name="DraggingV1">false</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<string name="Name">Head</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">0</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">1</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>2</X>
+						<Y>4</Y>
+						<Z>2</Z>
+					</Vector3>
+				</Properties>
+				<Item class="Decal" referent="RBX121">
+					<Properties>
+						<token name="Face">5</token>
+						<string name="Name">face</string>
+						<float name="Shiny">20</float>
+						<float name="Specular">0</float>
+						<Content name="Texture"><url>rbxasset://textures/face.png</url></Content>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Part" referent="RBX122">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">4</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">24</int>
+					<CoordinateFrame name="CFrame">
+						<X>-23</X>
+						<Y>109.200005</Y>
+						<Z>24</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<bool name="DraggingV1">false</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<string name="Name">Left Arm</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">3</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>2</X>
+						<Y>4</Y>
+						<Z>2</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBX123">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">24</int>
+					<CoordinateFrame name="CFrame">
+						<X>-21</X>
+						<Y>105.200005</Y>
+						<Z>24</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<bool name="DraggingV1">false</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<string name="Name">Left Leg</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">3</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>2</X>
+						<Y>4</Y>
+						<Z>2</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBX124">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">4</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">24</int>
+					<CoordinateFrame name="CFrame">
+						<X>-17</X>
+						<Y>109.200005</Y>
+						<Z>24</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<bool name="DraggingV1">false</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<string name="Name">Right Arm</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">3</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>2</X>
+						<Y>4</Y>
+						<Z>2</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="Part" referent="RBX125">
+				<Properties>
+					<bool name="Anchored">true</bool>
+					<float name="BackParamA">-0.5</float>
+					<float name="BackParamB">0.5</float>
+					<token name="BackSurface">0</token>
+					<token name="BackSurfaceInput">0</token>
+					<float name="BottomParamA">-0.5</float>
+					<float name="BottomParamB">0.5</float>
+					<token name="BottomSurface">0</token>
+					<token name="BottomSurfaceInput">0</token>
+					<int name="BrickColor">24</int>
+					<CoordinateFrame name="CFrame">
+						<X>-19</X>
+						<Y>105.200005</Y>
+						<Z>24</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<bool name="CanCollide">true</bool>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<bool name="DraggingV1">false</bool>
+					<float name="Elasticity">0.5</float>
+					<token name="FormFactor">0</token>
+					<float name="Friction">0.300000012</float>
+					<float name="FrontParamA">-0.5</float>
+					<float name="FrontParamB">0.5</float>
+					<token name="FrontSurface">0</token>
+					<token name="FrontSurfaceInput">0</token>
+					<float name="LeftParamA">-0.5</float>
+					<float name="LeftParamB">0.5</float>
+					<token name="LeftSurface">0</token>
+					<token name="LeftSurfaceInput">0</token>
+					<bool name="Locked">false</bool>
+					<string name="Name">Right Leg</string>
+					<float name="Reflectance">0</float>
+					<float name="RightParamA">-0.5</float>
+					<float name="RightParamB">0.5</float>
+					<token name="RightSurface">0</token>
+					<token name="RightSurfaceInput">0</token>
+					<Vector3 name="RotVelocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="TopParamA">-0.5</float>
+					<float name="TopParamB">0.5</float>
+					<token name="TopSurface">3</token>
+					<token name="TopSurfaceInput">0</token>
+					<float name="Transparency">0</float>
+					<Vector3 name="Velocity">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+					<token name="shape">1</token>
+					<Vector3 name="size">
+						<X>2</X>
+						<Y>4</Y>
+						<Z>2</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="Humanoid" referent="RBX126">
+				<Properties>
+					<float name="Health">0</float>
+					<bool name="Jump">false</bool>
+					<float name="MaxHealth">0</float>
+					<string name="Name">Humanoid</string>
+					<bool name="Sit">false</bool>
+					<Vector3 name="TargetPoint">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="WalkDirection">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<float name="WalkRotationalVelocity">0</float>
+					<Ref name="WalkToPart">null</Ref>
+					<Vector3 name="WalkToPoint">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX127">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">100</int>
+				<CoordinateFrame name="CFrame">
+					<X>15</X>
+					<Y>106.200005</Y>
+					<Z>6</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.899999976</float>
+				<token name="FormFactor">1</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Teapot</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>14</X>
+					<Y>6</Y>
+					<Z>8</Z>
+				</Vector3>
+			</Properties>
+			<Item class="SpecialMesh" referent="RBX128">
+				<Properties>
+					<Content name="MeshId"><url>http://www.roblox.com/asset/?id=1029523</url></Content>
+					<token name="MeshType">5</token>
+					<string name="Name">Mesh</string>
+					<Vector3 name="Scale">
+						<X>0.300000012</X>
+						<Y>0.300000012</Y>
+						<Z>0.300000012</Z>
+					</Vector3>
+					<Content name="TextureId"><null></null></Content>
+					<Vector3 name="VertexColor">
+						<X>1</X>
+						<Y>1</Y>
+						<Z>1</Z>
+					</Vector3>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<External>RBX129</External>
+	<External>RBX130</External>
+</roblox>
