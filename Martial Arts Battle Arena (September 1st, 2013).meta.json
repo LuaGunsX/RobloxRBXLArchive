@@ -1,0 +1,20 @@
+{
+    "Creator": "Friaza",
+    "Badges": [
+        {"ID": 85532425, "Name": "First Victory"},
+        {"ID": 85532637, "Name": "Head-shot"},
+        {"ID": 85532681, "Name": "Overkill"},
+        {"ID": 85532741, "Name": "Unscathed"},
+        {"ID": 85532813, "Name": "White Belt"},
+        {"ID": 85532880, "Name": "Yellow Belt"},
+        {"ID": 85533051, "Name": "Blue Belt"},
+        {"ID": 85534013, "Name": "Purple Belt"},
+        {"ID": 85534112, "Name": "Red Belt"},
+        {"ID": 85534182, "Name": "Brown Belt"},
+        {"ID": 85534247, "Name": "Black Belt"},
+        {"ID": 85534403, "Name": "Orange Belt"},
+        {"ID": 85538093, "Name": "Green Belt"},
+        {"ID": 119713833, "Name": "Gold Belt"},
+        {"ID": 127713074, "Name": "Rainbow Belt"}
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "Creator": "Crazyblox",
+    "Badges": [
+        {"ID": 80657326, "Name": "Easy Winner"},
+        {"ID": 80657425, "Name": "Medium Winner"},
+        {"ID": 80657485, "Name": "Hard Winner"},
+        {"ID": 80657611, "Name": "From the Moon"},
+        {"ID": 80657745, "Name": "Visitor"},
+        {"ID": 80657851, "Name": "Standard Agility"},
+        {"ID": 80657940, "Name": "Improved Agility"},
+        {"ID": 80658039, "Name": "Impressive Agility"},
+        {"ID": 80658172, "Name": "Trainee"},
+        {"ID": 114540869, "Name": "Button Masher"},
+        {"ID": 114541972, "Name": "Extreme"}
+    ]
+}

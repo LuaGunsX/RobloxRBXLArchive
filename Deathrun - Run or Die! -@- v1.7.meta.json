@@ -1,0 +1,24 @@
+{
+    "Creator": "erikwesley96",
+    "Badges": [
+		{"ID": 64435096, "Name": "You met the Creator"},
+		{"ID": 64435174, "Name": "You met the scripter"},
+		{"ID": 64435220, "Name": "Be a runner"},
+		{"ID": 64435272, "Name": "Be a killer"},
+        {"ID": 64435324, "Name": "You visited deathrun"},
+		{"ID": 64435395, "Name": "500 Points badge"},
+		{"ID": 64435448, "Name": "100 Points badge"},
+		{"ID": 64435478, "Name": "5.000 Points badge"},
+		{"ID": 64435510, "Name": "1.000 Points badge"},
+		{"ID": 64435530, "Name": "10.000 Points badge"},
+		{"ID": 64435560, "Name": "20.000 Points badge"},
+		{"ID": 64435595, "Name": "50.000 Points badge"},
+		{"ID": 64435635, "Name": "100.000 Points badge"},
+		{"ID": 64435735, "Name": "Gold medal of winning"},
+		{"ID": 64435786, "Name": "Silver medal of winning"},
+		{"ID": 64794538, "Name": "VIP Badge"},
+		{"ID": 64795267, "Name": "Halloween Event Badge"},
+		{"ID": 69081460, "Name": "1.000.000 Visits - Limited Edition"},
+		{"ID": 69081535, "Name": "Happy New Year! - Limited Edition"}
+    ]
+}

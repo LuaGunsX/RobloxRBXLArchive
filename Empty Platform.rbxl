@@ -1,0 +1,244 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="RunService" referent="RBX0">
+		<Properties>
+			<string name="Name">Run Service</string>
+			<tokens name="Keywords" xsi:nil="true"></tokens>
+		</Properties>
+	</Item>
+	<External>RBX1</External>
+	<Item class="ContentService" referent="RBX2">
+		<Properties>
+			<string name="Name">Content</string>
+			<tokens name="Keywords" xsi:nil="true"></tokens>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX3">
+		<Properties>
+			<Content name="Music"><null></null></Content>
+			<float name="MusicVolume">0.3</float>
+			<string name="Name">SoundService</string>
+			<tokens name="Keywords" xsi:nil="true"></tokens>
+		</Properties>
+	</Item>
+	<Item class="Level" referent="RBX4">
+		<Properties>
+			<token name="TimerUpAction">0</token>
+			<token name="TimerAffectsScore">2</token>
+			<string name="WinMessage"></string>
+			<string name="LoseMessage"></string>
+			<int name="Score">9900</int>
+			<float name="Timer">60</float>
+			<bool name="RunOnOpen">true</bool>
+			<string name="Name">Level</string>
+			<tokens name="Keywords" xsi:nil="true"></tokens>
+		</Properties>
+	</Item>
+	<Item class="Workspace" referent="RBX5">
+		<Properties>
+			<bool name="CanUngroup">true</bool>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<Ref name="PrimaryPart">RBX6</Ref>
+			<Ref name="CurrentCamera">RBX7</Ref>
+			<string name="Name">Workspace</string>
+			<tokens name="Keywords" xsi:nil="true"></tokens>
+			<bool name="NameShown">false</bool>
+			<bool name="ControllerFlagShown">true</bool>
+			<token name="Controller">0</token>
+			<bool name="Visible">true</bool>
+			<Ref name="Platform">null</Ref>
+		</Properties>
+		<Item class="Part" referent="RBX6">
+			<Properties>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0.2</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="shape">1</token>
+				<Color3 name="Color">
+					<R>0.294118</R>
+					<G>0.592157</G>
+					<B>0.290196</B>
+				</Color3>
+				<float name="Transparency">0</float>
+				<float name="Reflectance">0</float>
+				<bool name="Locked">true</bool>
+				<bool name="Anchored">true</bool>
+				<bool name="CanCollide">true</bool>
+				<token name="FormFactor">2</token>
+				<Vector3 name="size">
+					<X>64</X>
+					<Y>0.4</Y>
+					<Z>64</Z>
+				</Vector3>
+				<float name="Elasticity">0.5</float>
+				<float name="Friction">0.3</float>
+				<string name="Name">Base</string>
+				<tokens name="Keywords">Part</tokens>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<bool name="NameShown">false</bool>
+				<bool name="ControllerFlagShown">true</bool>
+				<token name="Controller">0</token>
+				<bool name="Visible">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Camera" referent="RBX7">
+			<Properties>
+				<token name="CameraType">4</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>2</X>
+					<Y>49.2733</Y>
+					<Z>57.1865</Z>
+					<R00>1</R00>
+					<R01>-4.2039e-045</R01>
+					<R02>1.4013e-045</R02>
+					<R10>1.4013e-045</R10>
+					<R11>0.773339</R11>
+					<R12>0.633993</R12>
+					<R20>-4.2039e-045</R20>
+					<R21>-0.633993</R21>
+					<R22>0.773339</R22>
+				</CoordinateFrame>
+				<CoordinateFrame name="Focus">
+					<X>2</X>
+					<Y>6.9</Y>
+					<Z>5.5</Z>
+					<R00>-1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>-1</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<string name="Name">Instance</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+				<bool name="Visible">true</bool>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="Hopper" referent="RBX8">
+		<Properties>
+			<string name="Name">Hopper</string>
+			<tokens name="Keywords" xsi:nil="true"></tokens>
+		</Properties>
+		<Item class="HopperBin" referent="RBX9">
+			<Properties>
+				<int name="Cost">1</int>
+				<int name="Quantity">0</int>
+				<string name="Command">Grab</string>
+				<string name="Name">HopperBin</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+			</Properties>
+		</Item>
+		<Item class="HopperBin" referent="RBX10">
+			<Properties>
+				<int name="Cost">1</int>
+				<int name="Quantity">0</int>
+				<string name="Command">Hammer</string>
+				<string name="Name">HopperBin</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+			</Properties>
+		</Item>
+		<Item class="HopperBin" referent="RBX11">
+			<Properties>
+				<int name="Cost">1</int>
+				<int name="Quantity">0</int>
+				<string name="Command">Clone</string>
+				<string name="Name">HopperBin</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+			</Properties>
+		</Item>
+	</Item>
+	<External>RBX12</External>
+	<Item class="ControllerService" referent="RBX13">
+		<Properties>
+			<string name="Name">Instance</string>
+			<tokens name="Keywords" xsi:nil="true"></tokens>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX14">
+		<Properties>
+			<Color3 name="TopAmbient">
+				<R>0.756863</R>
+				<G>0.756863</G>
+				<B>0.756863</B>
+			</Color3>
+			<Color3 name="BottomAmbient">
+				<R>0.74902</R>
+				<G>0.74902</G>
+				<B>0.74902</B>
+			</Color3>
+			<Color3 name="SpotLight">
+				<R>0.2</R>
+				<G>0.2</G>
+				<B>0.2</B>
+			</Color3>
+			<string name="Name">Lighting</string>
+			<tokens name="Keywords" xsi:nil="true"></tokens>
+		</Properties>
+	</Item>
+	<External>RBX15</External>
+	<External>RBX16</External>
+	<External>RBX17</External>
+</roblox>
